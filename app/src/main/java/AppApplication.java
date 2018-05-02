@@ -4,7 +4,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ImportResource;
 
-@EnableConfigurationProperties({DataSourceConfiguration.class})
 @SpringBootApplication(scanBasePackages = {"com.plat.app.config", "com.plat.app.controller, com.plat.service"})
 @ImportResource("classpath:spring/spring-applicaion-master.xml")
 public class AppApplication {
